@@ -1,6 +1,6 @@
-package com.srivatsan.multithreading.extendThread;
+package com.srivatsan.multithreading.extend;
 
-public class MyExtendThreads {
+public class ExtendThreads {
     public static void main(String[] args) {
         Thread threadOne = new ThreadOne();
         Thread threadTwo = new ThreadTwo();
