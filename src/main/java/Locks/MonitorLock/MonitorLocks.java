@@ -1,4 +1,4 @@
-package monitorlocks;
+package Locks.MonitorLock;
 
 public class MonitorLocks {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package join;
+package Thread;
 
-public class ThreadJoin {
+public class JoinThread {
 
     private static Thread t1 = new Thread(() -> {
         try {
