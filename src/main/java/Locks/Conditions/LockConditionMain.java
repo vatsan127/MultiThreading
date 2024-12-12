@@ -10,8 +10,8 @@ public class LockConditionMain {
     public static void main(String[] args) {
         SharedResource resource = new SharedResource();
 
-        Thread t1 = new Thread(() -> resource.produce());
-        Thread t2 = new Thread(() -> resource.consume());
+        Thread t1 = new Thread(resource::produce);
+        Thread t2 = new Thread(resource::consume);
 
         t1.setName("Producer Thread");
         t2.setName("Consumer Thread");
